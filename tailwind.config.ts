@@ -26,8 +26,8 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "#FDE8E9",
-          darker: "#F8D0D3",
+          DEFAULT: "#D946EF", // Changed to a darker magenta pink
+          darker: "#C026D3", // Darker shade for hover states
           foreground: "#2D2D2D",
         },
         secondary: {
