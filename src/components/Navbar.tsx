@@ -25,9 +25,9 @@ const Navbar = () => {
         <div className="flex justify-between h-16 items-center">
           <Link
             to="/"
-            className="text-2xl font-semibold text-neutral-900 hover:text-neutral-700 transition-colors"
+            className="text-2xl font-semibold hover:opacity-90 transition-opacity"
           >
-            Pink Cactus
+            <span className="text-primary">Pink</span> Cactus
           </Link>
 
           {/* Desktop Menu */}
